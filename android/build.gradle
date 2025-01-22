@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 32
+    namespace "app.mylekha.webcontent_converter"
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
